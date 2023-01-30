@@ -4,11 +4,10 @@
   <artifactId>spring-practice</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
-  
-  
-  
-  
+    
   <modules>
   	<module>hellospring</module>
+  	<module>emaillist03</module>
+  	<module>guestBook03</module>
   </modules>
 </project>

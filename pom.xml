@@ -9,6 +9,7 @@
   	<module>hellospring</module>
   	<module>emaillist03</module>
   	<module>guestBook03</module>
+  	<module>logex</module>
   </modules>
   
   <build>

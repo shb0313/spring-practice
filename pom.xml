@@ -10,6 +10,8 @@
   	<module>emaillist03</module>
   	<module>guestBook03</module>
   	<module>logex</module>
+  	<module>aoptest</module>
+  	<module>fileupload</module>
   </modules>
   
   <build>

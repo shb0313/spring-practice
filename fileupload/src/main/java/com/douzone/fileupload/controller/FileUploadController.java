@@ -29,6 +29,8 @@ public class FileUploadController {
 		String url = fileuploadService.restore(file);
 		model.addAttribute("url", url);
 		
+		System.out.println("url : " + url);
+		
 		return "WEB-INF/views/result.jsp";
 	}
 }

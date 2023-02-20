@@ -7,6 +7,7 @@
 	</parent>
 	<artifactId>emaillist03</artifactId>
 	<packaging>war</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.build.outputEncoding>UTF-8</project.build.outputEncoding>
@@ -14,38 +15,43 @@
 		<maven.compiler.target>17</maven.compiler.target>
 		<org.springframewok-version>5.3.25</org.springframewok-version>
 	</properties>
+
 	<dependencies>
 		<!-- spring context -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-context</artifactId>
-			<version>${org.springframewok-version}</version>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-context</artifactId>
+		    <version>${org.springframewok-version}</version>
 		</dependency>
+
 		<!-- spring web -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-web</artifactId>
-			<version>${org.springframewok-version}</version>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-web</artifactId>
+		    <version>${org.springframewok-version}</version>
 		</dependency>
+
 		<!-- spring mvc -->
 		<dependency>
-			<groupId>org.springframework</groupId>
-			<artifactId>spring-webmvc</artifactId>
-			<version>${org.springframewok-version}</version>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-webmvc</artifactId>
+		    <version>${org.springframewok-version}</version>
 		</dependency>
+		
 		<!-- jstl -->
 		<dependency>
-			<groupId>jstl</groupId>
-			<artifactId>jstl</artifactId>
-			<version>1.2</version>
+		    <groupId>jstl</groupId>
+		    <artifactId>jstl</artifactId>
+		    <version>1.2</version>
 		</dependency>
+				
 		<!-- MariaDB JDBC Driver -->
-		<!-- https://mvnrepository.com/artifact/org.mariadb.jdbc/mariadb-java-client -->
 		<dependency>
-			<groupId>org.mariadb.jdbc</groupId>
-			<artifactId>mariadb-java-client</artifactId>
-			<version>3.0.8</version>
+		    <groupId>org.mariadb.jdbc</groupId>
+		    <artifactId>mariadb-java-client</artifactId>
+		    <version>3.0.8</version>
 		</dependency>
+		
 		<!-- servlet -->
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -60,6 +66,7 @@
 			<scope>provided</scope>
 		</dependency>
 	</dependencies>
+
 	<build>
 		<finalName>emaillist03</finalName>
 		<plugins>
@@ -69,5 +76,5 @@
 				<version>3.3.2</version>
 			</plugin>
 		</plugins>
-	</build>
+	</build>	
 </project>

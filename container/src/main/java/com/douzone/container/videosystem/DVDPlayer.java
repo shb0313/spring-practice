@@ -1,7 +1,7 @@
 package com.douzone.container.videosystem;
 
 public class DVDPlayer {
-private DigitalVideoDisc dvd;
+	private DigitalVideoDisc dvd;
 	
 	public DVDPlayer() {
 	}
